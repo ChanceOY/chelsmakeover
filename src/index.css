@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #241815;
+  background: #fbf6ee;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, rgba(214, 169, 158, 0.2), transparent 32rem),
+    linear-gradient(180deg, #fbf6ee 0%, #fffaf3 52%, #fbf6ee 100%);
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(198, 163, 93, 0.35);
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8;
+}
+
+.eyebrow {
+  @apply text-xs font-semibold uppercase tracking-[0.22em] text-rosewood;
+}
+
+.premium-card {
+  @apply rounded-[1.35rem] border border-white/70 bg-porcelain/85 shadow-soft backdrop-blur;
+}
+
+.field {
+  @apply mt-2 w-full rounded-2xl border border-rosewood/20 bg-white/75 px-4 py-3 text-sm text-cocoa outline-none transition placeholder:text-espresso/40 focus:border-champagne focus:ring-4 focus:ring-champagne/15;
+}
