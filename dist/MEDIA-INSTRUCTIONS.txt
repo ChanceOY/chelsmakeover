@@ -1,7 +1,0 @@
-Put your real pictures inside public/images.
-Put your real videos inside public/videos.
-Keep the same file names if you do not want to edit the code.
-For example, replace hero.jpg with your real hero image.
-Replace look-1.mp4 with your real first video.
-Place your subtle Services section background video at public/videos/services-bg.mp4.
-After replacing files, refresh the website.
